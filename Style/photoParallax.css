@@ -1,0 +1,26 @@
+.parallax {
+    /* Set a specific height */
+    height: 40vw;
+    width: 100vw;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Again stolen from w3 schools. Basically the best website ever. HTML & CSS are hard. 
+    https://www.w3schools.com/howto/howto_css_parallax.asp */
+
+/* This is for words that are able to be placed on top of the image 
+    (with a transparent background) */
+.words
+{
+    position: absolute; /* Position the background text */
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_transparent.asp */
